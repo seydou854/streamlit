@@ -11,7 +11,7 @@ st.markdown('*appli utilisant model de machine learning finance*')
 
 # # Load the model
 
-model=jb.load(filename='final_model_check2.joblib')
+model=jb.load(filename='C:\\Users\\Dell\\Desktop\\GOMYCOD\\deploiment_modele\\final_model_check2.joblib')
 
 # Récupérer les entrées de l'utilisateur
 country =st.number_input('country', value=0)
